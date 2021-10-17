@@ -19,7 +19,7 @@ fn main() {
 }
 
 fn draw_lorem_ipsum(canvas: &mut Canvas) {
-    icu::init();
+    // icu::init();
     let mut font_collection = FontCollection::new();
     font_collection.set_default_font_manager(FontMgr::new(), None);
     let paragraph_style = ParagraphStyle::new();
