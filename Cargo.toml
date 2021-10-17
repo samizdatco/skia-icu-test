@@ -1,0 +1,11 @@
+[package]
+name = "test-icu"
+version = "0.1.0"
+authors = ["Christian Swinehart <drafting@samizdat.co>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.skia-safe]
+version = "0.43.0"
+features = ["textlayout"]
