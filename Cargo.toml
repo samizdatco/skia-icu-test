@@ -6,7 +6,7 @@ edition = "2018"
 
 [profile.release]
 # opt-level = 2
-lto = "fat"
+lto = "thin"
 # codegen-units = 1
 
 [dependencies]
